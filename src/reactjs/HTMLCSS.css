@@ -111,7 +111,7 @@ header{
 }
 header::after{
     content: '';
-    background-image: url('/home/vinod/Desktop/vinod123/public/bg-pattern-intro-right-desktop.svg');
+    background-image: url(/public/bg-pattern-intro-right-desktop.svg);
     background-repeat: no-repeat;
     background-position: top right;
     position: absolute;
@@ -123,7 +123,7 @@ header::after{
 }
 header::before{
     content: '';
-    background-image: url('/home/vinod/Desktop/vinod123/public/bg-pattern-intro-left-desktop.svg');
+    background-image: url(/public/bg-pattern-intro-left-desktop.svg);
     background-repeat: no-repeat;
     background-position: bottom left;
     position: absolute;
@@ -142,7 +142,7 @@ header::before{
     padding: 40px;
     position: relative;
     margin: 100px auto;
-    background-image: url('/home/vinod/Desktop/vinod123/public/bg-pattern-how-we-work-desktop.svg');
+    background-image: url(/public/bg-pattern-how-we-work-desktop.svg);
     background-repeat: no-repeat;
     background-size: 50% 100%;
     background-position: top right;
@@ -160,7 +160,7 @@ header::before{
 footer{
  background-color: var(--Very-light-gray);
  padding: 60px 0px 30px;
- background-image: url('/home/vinod/Desktop/vinod123/public/bg-pattern-footer-desktop.svg');
+ background-image: url(/public/bg-pattern-footer-desktop.svg);
  background-repeat: no-repeat;
  background-position: top left;
  position: relative;
@@ -272,14 +272,14 @@ nav .hamburger{
         flex-direction: column-reverse;
     }
     .bg-voilet {
-        background-image: url('/home/vinod/Desktop/vinod123/public/bg-pattern-how-we-work-mobile.svg');
+        background-image: url(/public/bg-pattern-how-we-work-mobile.svg);
     }
     .bg-voilet h2{
         width: 100%;
         margin-bottom: 20px;
     }
     footer{
-        background-image: url('/home/vinod/Desktop/vinod123/public/bg-pattern-footer-mobile.svg');
+        background-image: url(/public/bg-pattern-footer-mobile.svg);
         background-size: 100% auto;
         background-position: top left;
     }
